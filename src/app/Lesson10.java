@@ -1,5 +1,6 @@
 package app;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -29,6 +30,7 @@ public class Lesson10 {
             array[i] = rand.nextInt();
         }
         long sum = calc.sumArray(array);
+        System.out.println(Arrays.toString(array));
         System.out.println("Сума всіх елементів масиву дорівнює " + sum);
 
         System.out.println("Введіть рядок: ");
